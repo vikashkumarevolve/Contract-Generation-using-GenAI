@@ -19,29 +19,32 @@ Contracts can be seamlessly downloaded as Word documents, making them easy to ed
 Error Handling:
 
 The tool ensures smooth execution with robust error handling. If a directory doesn’t exist, it’s created automatically, ensuring that all contracts are securely saved.
+
 Why Use This Tool?
+
 Efficiency: Automatically generate legal documents, reducing the time and effort involved in manual contract creation.
+
 Consistency and Accuracy: By leveraging AI, contracts are generated with consistent legal language, reducing errors.
+
 Scalability: Whether you're generating one contract or hundreds, the tool scales effortlessly to meet your needs.
+
 Customization: Tailor contracts to your specific requirements while maintaining compliance with legal standards.
-Future Enhancements
+
+
+Future Enhancements:-
+
 E-Signature Integration: To allow for seamless signing of contracts after generation.
+
 Version Control: To track changes and manage multiple contract versions.
+
 Multi-language Support: To generate contracts in different languages.
+
 Tech Stack
+
 Azure OpenAI: For refining contract language using GPT models.
 Streamlit: Provides the user interface for input and interaction.
 Python-Docx: Used to export the contracts as Word documents (DOCX).
 Python: Backbone of the application, handling contract generation, AI integration, and document export.
-How to Use
-Clone the repository and navigate to the project directory.
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the Streamlit app:
-bash
-Copy code
-streamlit run contract_generator.py
-Input the details for your contract (e.g., company name, tenant/partner details) and click "Generate Contract".
-Once the contract is generated, click Download Contract as DOCX to save the document.
+
+
+
